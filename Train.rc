@@ -1,0 +1,238 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Train.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Train.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Train"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Train 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2019",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TRAIN_DIALOG DIALOGEX 0, 0, 320, 200
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "欢迎使用火车售票系统"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "账号",IDC_STATIC,66,60,17,8
+    EDITTEXT        IDC_EDIT1,99,57,146,14,ES_AUTOHSCROLL
+    LTEXT           "密码",IDC_STATIC,65,96,17,8
+    EDITTEXT        IDC_EDIT2,99,93,146,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "登录",IDC_BUTTON1,59,139,50,14
+    PUSHBUTTON      "退出",IDC_BUTTON2,193,139,50,14
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 345, 209
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "票务管理"
+FONT 10, "System"
+BEGIN
+    LTEXT           "车次",IDC_STATIC,5,4,17,8
+    EDITTEXT        IDC_EDIT1,25,2,39,12,ES_AUTOHSCROLL
+    LTEXT           "起点",IDC_STATIC,65,4,17,8
+    EDITTEXT        IDC_EDIT2,83,2,40,12,ES_AUTOHSCROLL
+    LTEXT           "终点",IDC_STATIC,125,3,17,8
+    EDITTEXT        IDC_EDIT3,143,2,40,12,ES_AUTOHSCROLL
+    LTEXT           "发车时间",IDC_STATIC,184,4,33,8
+    EDITTEXT        IDC_EDIT4,218,2,40,12,ES_AUTOHSCROLL
+    LTEXT           "座位数",IDC_STATIC,259,3,25,8
+    EDITTEXT        IDC_EDIT5,286,1,40,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "录入",IDC_BUTTON3,10,24,50,14
+    PUSHBUTTON      "修改",IDC_BUTTON4,76,24,50,14
+    PUSHBUTTON      "删除",IDC_BUTTON5,142,24,50,14
+    PUSHBUTTON      "查询",IDC_BUTTON6,208,24,50,14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,11,44,293,130
+    PUSHBUTTON      "退出",IDC_BUTTON7,274,24,50,14
+    PUSHBUTTON      "购票",IDC_BUTTON8,12,186,50,14
+    PUSHBUTTON      "退票",IDC_BUTTON9,66,186,50,14
+    PUSHBUTTON      "售票数量",IDC_BUTTON10,120,186,50,14
+    PUSHBUTTON      "余票数量",IDC_BUTTON11,174,186,50,14
+    PUSHBUTTON      "导入",IDC_BUTTON12,228,186,50,14
+    PUSHBUTTON      "导出",IDC_BUTTON13,282,186,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Train Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Train\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2019\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Train.EXE\0"
+            VALUE "ProductName", "Train 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TRAIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Train(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Train.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

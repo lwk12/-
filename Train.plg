@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Train - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Train.res" /d "_DEBUG" "C:\Users\Administrator\Desktop\Train\Train.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBA37.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Train.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\Train\MainDlg.cpp"
+"C:\Users\Administrator\Desktop\Train\Train.cpp"
+"C:\Users\Administrator\Desktop\Train\Train1.cpp"
+"C:\Users\Administrator\Desktop\Train\TrainDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBA37.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBA38.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Train.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\Train\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBA38.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Train.pdb" /debug /machine:I386 /out:"Debug/Train.exe" /pdbtype:sept  .\Debug\MainDlg.obj .\Debug\StdAfx.obj .\Debug\Train.obj .\Debug\Train1.obj .\Debug\TrainDlg.obj .\Debug\Train.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainDlg.cpp
+Train.cpp
+Train1.cpp
+TrainDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Train.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
